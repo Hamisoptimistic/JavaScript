@@ -1,0 +1,55 @@
+AND operator (&&)
+console.log (true && true);
+
+OR Operator (||)
+
+console.log (null||false);
+
+Not operatior (!);
+
+console.log (!false);
+
+Shortcuts for IF Statement
+
+Ternary Operator (condition ? value1 : value2);
+THE Advantage is that we can save the values in a Variable
+here value 1 is if statement and value 2 is else statement
+
+let TO = false ? "amazing" : "this is False" 
+console.log (TO);
+
+Guard operator (&&)
+
+-> It Blocks the statment if the value if False and otherwise
+eg:
+
+let var2 = false && console.log ('Hello')
+            OR
+let var3 = 4 && 'hello'
+// here the 4 is truthy value so the RHS will get executed 
+
+Default operator (||)
+
+let currency  = 'EUR' || 'USD';
+
+these  techniques are called Short-Circuit
+
+
+
+
+
+
+
+
+
+
+Truthy and Falsy Value can reduce the condition length in IF statement like
+
+let a = 5;
+
+if (a) {console.log ('cart has items')};
+here 'a' acts as truthy value which has 5 and we dont have to type a>0 or a >= 0
+console.log (!0);
+
+if (true) 
+{console.log ('truthy')};
