@@ -1,14 +1,57 @@
+forrock =function(){
+    const randomnum = Math.random()
+    if(randomnum>= 0 && randomnum <=1/3){
+        computermove = "rock"
+    }else if(randomnum>=1/3&&randomnum<=2/3){
+computermove = "paper"
+        }
+else{computermove="scissors"};
 
-// let name = 'Hamim';
-// console.log('my name is :' + name);
+if(computermove==="rock"&&computermove!=="paper"&&computermove!=="scissors"){
+    alert("tie computer picked rock")}
+    else if(computermove!=="rock"&&computermove=="paper"&&computermove!=="scissors"){
+        alert("you lose computer picked paper")
+}
+else{alert("you win computer picked scissors")}
+    }
 
-// let cost = 5 + 2*3 + 9;
-// console.log(`Cost of food: $${cost}`);
 
-// let Tax = (5 + 2*3 + 9 ) * 0.1;
-// console.log('cost with tax: $' + Tax);
+forpaper = function(){
+    const randomnum = Math.random()
+    if(randomnum>= 0 && randomnum <=1/3){
+        computermove = "rock"
+    }else if(randomnum>=1/3&&randomnum<=2/3){
+computermove = "paper"
+        }
+else{computermove="scissors"};
 
-// let totalcost = cost + Tax;
-// console.log('total cost: $' + totalcost);
 
-console.log(1/3);
+if(computermove==="rock"&&computermove!=="paper"&&computermove!=="scissors"){
+    alert("you won computer picked rock")}
+    else if(computermove!=="rock"&&computermove=="paper"&&computermove!=="scissors"){
+        alert("tie computer picked paper")
+}
+else{alert("you lose computer picked scissors")}
+    }
+
+
+
+forscissors = function(){
+    const randomnum = Math.random()
+    if(randomnum>= 0 && randomnum <=1/3){
+        computermove = "rock"
+    }else if(randomnum>=1/3&&randomnum<=2/3){
+computermove = "paper"
+        }
+else{computermove="scissors"};
+
+if(computermove==="rock"){
+    alert("you lose computer picked rock")}
+    else if(computermove=="paper"){
+        alert("you won computer picked paper")
+}
+else{alert("tie computer picked scissors")}
+    }
+
+
+    
